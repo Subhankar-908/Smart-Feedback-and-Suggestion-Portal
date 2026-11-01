@@ -1,0 +1,39 @@
+-- ============================================================
+-- Smart Feedback & Suggestion Portal
+-- Seed Data Reference
+-- ============================================================
+-- NOTE: Password hashes cannot be generated in plain SQL.
+--       Use seed_helper.py to insert seed data with real hashes.
+--
+-- USAGE:
+--   Step 1: Apply schema
+--     psql -d smart_feedback_db -f schema.sql
+--
+--   Step 2: Insert seed data
+--     cd database
+--     pip install psycopg2-binary bcrypt
+--     python seed_helper.py
+--
+-- ============================================================
+-- DEMO CREDENTIALS (set by seed_helper.py):
+--
+--   Role    | Email                          | Password
+--   --------|--------------------------------|----------
+--   Admin   | admin@college.edu              | Admin@123
+--   Student | arjun.mehta@college.edu        | Student@123
+--   Student | priya.patel@college.edu        | Student@123
+--   Student | rohan.gupta@college.edu        | Student@123
+--   Student | sneha.joshi@college.edu        | Student@123
+--   Student | karan.shah@college.edu         | Student@123
+--
+-- ============================================================
+-- SEED CONTENTS (inserted by seed_helper.py):
+--
+--   Users    : 1 admin + 5 students
+--   Courses  : 8 courses across 4 departments
+--   Faculty  : 6 faculty members
+--   Feedback : 20 feedback entries with NLP results
+--
+-- ============================================================
+-- All data is fictional. No real person's information is used.
+-- ============================================================

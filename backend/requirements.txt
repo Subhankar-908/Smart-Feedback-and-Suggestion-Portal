@@ -1,0 +1,48 @@
+# ============================================================
+# Smart Feedback Portal — Backend Dependencies
+# ============================================================
+# Versions use >= to ensure Python 3.13 compatible wheels are
+# picked automatically. Do not hard-pin pydantic-core — it
+# must use a pre-built wheel for the installed Python version.
+# ============================================================
+
+# Web framework
+fastapi>=0.111.0
+
+# ASGI server
+uvicorn[standard]>=0.29.0
+
+# Database ORM
+sqlalchemy>=2.0.30
+
+# PostgreSQL driver (binary = no compilation required)
+psycopg2-binary>=2.9.9
+
+# Validation (pydantic v2 with email support)
+pydantic[email]>=2.10.0
+pydantic-settings>=2.6.0
+
+# JWT authentication
+python-jose[cryptography]>=3.3.0
+
+# Password hashing
+passlib[bcrypt]>=1.7.4
+
+# Form data (needed for OAuth2 form login)
+python-multipart>=0.0.9
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# NLP (added in Phase 5-8, declared here for completeness)
+vaderSentiment>=3.3.2
+nltk>=3.8.1
+
+# HTTP client for testing
+httpx>=0.27.0
+
+# Testing
+pytest>=8.2.1
+
+# Optional progress-report generator
+fpdf2>=2.7.8

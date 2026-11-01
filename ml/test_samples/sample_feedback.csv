@@ -1,0 +1,26 @@
+feedback_text,expected_sentiment,expected_category,expected_urgent
+"The DBMS lectures are well-structured and Dr. Kumar explains every concept with real-world examples. Really enjoying the course.",Positive,Teaching Pace,False
+"Lab computers in the DBMS lab keep crashing. Many systems have been non-functional for over two weeks. This is seriously affecting our practicals.",Negative,Lab Facilities,True
+"Operating Systems class moves a little fast. Some students find it hard to keep up with the pace of lectures.",Negative,Teaching Pace,False
+"DSA lectures are excellent. Prof. Nair uses very clear diagrams and step-by-step walkthroughs. One of the best courses this semester.",Positive,Teaching Pace,False
+"The DBMS course has not yet covered normalization and transactions which are important exam topics. We are worried about completing the syllabus.",Negative,Syllabus Coverage,False
+"Operating Systems class is very informative. Prof. Sharma explains process scheduling algorithms clearly.",Positive,Teaching Pace,False
+"The computer networks lab is okay. Some machines are slow but functional. Could be better.",Neutral,Lab Facilities,False
+"Computer Networks theory is well paced. Notes provided by the faculty are very helpful for self-study.",Positive,Teaching Pace,False
+"Digital Electronics lab equipment is outdated. Oscilloscopes are broken in half the lab. Please replace them urgently.",Negative,Lab Facilities,True
+"Dr. Verma explains digital circuits very well. The examples used in class are practical and relevant.",Positive,Teaching Pace,False
+"Signals and Systems is a tough subject but the lectures are decent. Would appreciate more practice problems.",Neutral,Syllabus Coverage,False
+"The classroom used for Thermodynamics has broken ceiling fans. It gets extremely hot during afternoon sessions. This is very uncomfortable.",Negative,Infrastructure,True
+"Prof. Patel covers the Thermodynamics syllabus thoroughly. All chapters have been completed on time.",Positive,Syllabus Coverage,False
+"DBMS theory is good but the lab sessions are unproductive because most computers do not have the required software installed.",Negative,Lab Facilities,True
+"DSA is a well-organized course. The assignments are challenging and helpful for interviews.",Positive,Teaching Pace,False
+"Some chapters in Operating Systems like memory management have been rushed. We would appreciate spending more time on them.",Negative,Syllabus Coverage,False
+"The projector in Room 204 has not been working for the past month. Lectures are hard to follow without the slides being visible.",Negative,Infrastructure,True
+"Overall the Signals and Systems course is satisfactory. Could use more real-world applications in examples.",Neutral,Syllabus Coverage,False
+"DSA practicals are well-planned. The lab machines are fast and all required IDEs are pre-installed.",Positive,Lab Facilities,False
+"Structural Analysis lectures by Dr. Singh are very engaging. The hand-drawn diagrams are extremely helpful for understanding concepts.",Positive,Teaching Pace,False
+"All computers in the laboratory have stopped working for the last two weeks.",Negative,Lab Facilities,True
+"Teacher is teaching too fast.",Negative,Teaching Pace,False
+"Classroom fans and lights are not working.",Negative,Infrastructure,True
+"The course has not completed important chapters.",Negative,Syllabus Coverage,False
+"Everything in the college is satisfactory.",Positive,Other,False
